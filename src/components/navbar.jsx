@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Button from './ui/button'
+import SearchBar from './search-bar'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navbar = () => {
 
 
         <div>
-            
+<SearchBar/>
         </div>
 <Button>
 Login
