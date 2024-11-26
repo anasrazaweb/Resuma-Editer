@@ -9,11 +9,11 @@ const Typography = ({ variant = "h3", children, className, ...props }) => {
 
   const variantClasses = {
     h1: " text-xl md:text-5xl font-semibold ",
-    h2: " text-lg md:text-xl font-semibold ",
+    h2: " text-lg md:text-4xl font-semibold ",
     h3: " text-base md:text-base font-medium ",
     h4: " text-15fs md:text-base font-normal  tracking-none",
     h5: "text-sm font-normal	 ",
-    h6: "text-primary text-lg font-normal	",
+    h6: "text-defaultPrimary text-lg font-normal	",
     p: "!text-mds leading-2 font-normal ",
   };
 
